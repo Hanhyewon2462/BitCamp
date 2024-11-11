@@ -257,7 +257,7 @@ function App() {
 
         <div style={{ fontFamily: "Pretendard-Regular" }}>
           <Router>
-            <ScrollToTop /> {/* 여기에 ScrollToTop 추가 */}
+            <ScrollToTop /> 
             <ErrorBoundary>
               <Routes>
                 <Route
@@ -266,7 +266,7 @@ function App() {
                     <BlueButtonComponent
                       text="버튼 테스트"
                       onClick={() => alert("버튼이 클릭되었습니다!")}
-                      //style={buttonStyle} // 스타일 객체 전달
+                      
                     />
                   }
                 />
@@ -276,7 +276,7 @@ function App() {
                     <BlueBorderButtonComponent
                       text="버튼 테스트"
                       onClick={() => alert("버튼이 클릭되었습니다!")}
-                      //style={buttonStyle} // 스타일 객체 전달
+                     
                     />
                   }
                 />
